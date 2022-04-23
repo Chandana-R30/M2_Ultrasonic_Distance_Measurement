@@ -53,3 +53,6 @@ This is done on Visual Studio Code and SimulIDE.
 # How :
 Implemented by using the Embedded system concepts and C program.
 
+# High Level Requirements
+
+
