@@ -47,37 +47,87 @@ The I2C bus is a very popular and powerful bus used for communication between a 
 # Strengths
 
 •	Distance of the objects can be calculated without error
-•	Can locate the object
-•	Low cost and efficient solution
+
+•	Not affected by color or transparency of objects 
+
+•	Low cost and efficient solution 
+
+•	They have greater accuracy than many other methods at measuring thickness and distance to a parallel surface
+
+•	Ultrasonic sensors are easy to use and not dangerous during operation to nearby objects, people or equipment
+
+•	Can be used in dark environments 
+
 
 # Weakness
+
+•	Have a limited detection range 
+
+•	Cannot work in vacuum
+
+•	Cannot work underwater
 
 •	The developed system is applicable only for solid objects.
 
 # Opportunities
 
 •	We can use humidity sensors in future to measure distance in different environment
-•	This system can be used in driverless car to detect obstacle
+
+•	This system can be used in driverless car to detect obstacles
 
 # Threats
 
-Any acoustic noise at the frequency to which the ultrasonic sensor is receptive, may interfere with that sensor's output
+•	Sensing accuracy affected by soft materials
+
+  Objects covered in a very soft fabric absorb more sound waves making it hard for the sensor to see the target.
+  
+•	Sensing accuracy affected by changes in temperature of 5-10 degrees or more
+
+  Although this is true, we have a variety of temperature compensated sensors available that either calibrate upon start-up or before every range reading depending on
+  
+  the sensor model. During this time is when the sensor will calibrate with any change in temperature, voltage, etc. This dramatically decreases this problem.
+
+
 # 4W's and 1H
+
 # Who :
-Its easy to use this device by anyone.
+Can be used by anyone for obstacle detection, safety purposes. 
 
 # What :
+
 Distance measurement of objects with the help of HC-SR04 Ultrasounic sensor, ATMEGA328 microcontroller, LCD Display via I2C bus.
 
 # When :
-This is done as a Module-2 Embedded project.
+
+When one has to measure the distance to a wide range of objects regardless of shape, color or surface texture.
 
 # Where :
-This is done on Visual Studio Code and SimulIDE.
+
+Found in distance measuring devices for safety, obstacle detection purposes 
 
 # How :
+
 Implemented by using the Embedded system concepts and C program.
 
 # High Level Requirements
+
+ID|Description|Status
+----|--------------|-----------
+HLR1|Microcontroller|Implemented
+HLR2|Ultrasonic Sensor|Implemented
+HLR3|Display|Implemented
+HLR4|Software|Implemented
+
+# Low Level Requirements
+
+ID|Description|Status
+-----|-----------------|----------------
+LLR1|ATMega-328|Implemented
+LLR2|LCD Display|Implemented
+LLR3|HC-SR04|Implemented
+LLR4|Visual Studio Code with AVR GCC compiler	Implemented|Implemented
+LLR5|SimulIDE|Implemented 
+
+
 
 
