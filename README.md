@@ -8,3 +8,5 @@ The project is designed to develop distance measurement system using HC-SR04(Ult
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/8ff5e62caf8c44df98e4268d57cf62ff)](https://www.codacy.com/gh/Chandana-R30/M2_Ultrasonic_Distance_Measurement/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Chandana-R30/M2_Ultrasonic_Distance_Measurement&amp;utm_campaign=Badge_Grade)
 
 [![Build CI-Linux](https://github.com/Chandana-R30/M2_Ultrasonic_Distance_Measurement/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Chandana-R30/M2_Ultrasonic_Distance_Measurement/actions/workflows/c-cpp.yml)
+
+[![Cppcheck Analysis](https://github.com/Chandana-R30/M2_Ultrasonic_Distance_Measurement/actions/workflows/makefile.yml/badge.svg)](https://github.com/Chandana-R30/M2_Ultrasonic_Distance_Measurement/actions/workflows/makefile.yml)
