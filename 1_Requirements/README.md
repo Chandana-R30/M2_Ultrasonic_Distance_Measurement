@@ -36,10 +36,15 @@ The I2C bus is a very popular and powerful bus used for communication between a 
 
 ## Features:
 •	Microcontroller : ATmega328
+
 •	Operating Voltage : 5V
+
 •	Program Memory Type : Flash
+
 •	Flash Memory : 32Kbytes
+
 •	SRAM : 2 KB (ATmega328)
+
 •	EEPROM : 1 KB (ATmega328)
 
 ## SWOT Analysis
